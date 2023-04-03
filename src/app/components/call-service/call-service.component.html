@@ -1,0 +1,16 @@
+<div id="container">
+    <div id="controls">
+        <div id="buttons">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <input matInput type="number" formControlName="numero">
+                <button type="submit" mat-raised-button color="primary">Calcular</button>
+            </form>
+        </div>
+        <div>
+            <button (click)="clearCache()" id="limpar" mat-raised-button color="warn">Limpar Cache</button>
+        </div>
+    </div>
+    <div id="resultado">
+        <p>Para n({{resultado.n}}) <br> Resultado = {{resultado.result}} <br> Tempo Gasto = {{resultado.timeMs}}</p>
+    </div>
+</div>

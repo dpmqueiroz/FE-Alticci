@@ -1,0 +1,21 @@
+h2{
+    margin-left: 30px;
+}
+
+p {
+    word-break: break-all;
+    margin: 5px;
+}
+
+#container {
+    display: flex;
+    margin: 20px;
+}
+
+.info {
+    padding: 20px;
+    background-color: lightcyan;
+    margin: 10px;
+    width: 50%;
+    border-radius: 20px;
+}

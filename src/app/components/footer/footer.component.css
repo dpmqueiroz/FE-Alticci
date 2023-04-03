@@ -1,0 +1,7 @@
+div {
+    background-image: linear-gradient(to left, rgb(160, 173, 173), rgb(105, 105, 117));
+    padding: 20px;
+    margin-bottom: 100%;
+    display: flex;
+    justify-content: center;
+}

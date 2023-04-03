@@ -1,0 +1,23 @@
+<app-nav-menu></app-nav-menu>
+<div id="container">
+    <div class="info">
+        <h2>Sequencia Alticci</h2>
+        <p>É uma sequencia que funciona com a seguinte fórmula :</p>
+        <p> n=0 => a(0) = 0 <br>
+            n=1 => a(1) = 1<br>
+            n=2 => a(2) = 1<br>
+            n>2 => a(n) = a(n-3) + a(n-2)
+        </p>
+        <P>Para chegar no objetivo é necessário saber o valor do 'n' anterior.</P>
+    </div>
+    <div class="info">
+        <h2>Sobre a Aplicação</h2>
+        <p>A aplicação em questão armazena em cache, os pequenos valores de 'n' que já foram obtidos, 
+            para que posteriormente não seja tão custoso encontrar os valores.</p>
+        <p>Caso no início você tente obter um resultado de um valor muito alto a aplicação não consegue retornar pois trabalha com método recursivo, 
+            e dependendo do valor ele não consegue devolver o resultado, por isso a orientação é para progredir lentamente de 5 em 5 mil, ou de 10 em 10 mil.</p>
+        <p>Como Objetivo de notar a difença no uso do CACHE você pode repetir alguma consulta, e também pode limpar o cache, para verificar o tempo de resposta do servidor com cahce e também sem cache.</p>
+    </div>
+</div>
+<app-call-service></app-call-service>
+<app-footer></app-footer>
