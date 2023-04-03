@@ -23,6 +23,6 @@ n>2 => a(n) = a(n-3) + a(n-2) <br>
 `npm install` -> ( Este comando irá instalar o que é necessário para rodar o projeto ). <br>
 `ng serve -o` -> (Este comando irá iniciar a aplicação e abrir uma guia do navegador com o projeto aberto).
 
-##Com a aplicação em execução temos dois links utéis:
+## Com a aplicação em execução temos dois links utéis:
 
 URL da aplicação -> http://localhost:4200 
