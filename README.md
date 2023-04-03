@@ -1,27 +1,24 @@
-# Alticci
+# FE-Alticci
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+O projeto foi desenvolvido com o intuito de de consumir o backEnd para verificar o valor de `n` na sequencia Alticci.
 
-## Development server
+A sequencia Alticci funciona com a seguinte formula:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+n=0 => a(0) = 0 <br>
+n=1 => a(1) = 1 <br>
+n=2 => a(2) = 1 <br>
+n>2 => a(n) = a(n-3) + a(n-2) <br>
 
-## Code scaffolding
+## Para rodar o projeto na sua máquina siga o passo a passo.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1º Passo -> Clonar o repositório
 
-## Build
+`git clone https://github.com/dpmqueiroz/FE-Alticci.git`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2º Passo -> Verificar se tem o Node e Angular-Cli instalado. ( Minhas configurações estão dessa maneira: `Angular Cli: 15.2.4`, `Node: 18.15.0`
+`NPM 9.5.0` ).
 
-## Running unit tests
+3º Passo -> Abrir o Terminal entrar na pasta raiz do projeto e executar o seguinte comando:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`npm install` -> ( Este comando irá instalar o que é necessário para rodar o projeto ).
+`ng serve -o` -> (Este comando irá iniciar a aplicação e abrir uma guia do navegador com o projeto aberto).
