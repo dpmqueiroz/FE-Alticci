@@ -15,8 +15,8 @@ n>2 => a(n) = a(n-3) + a(n-2) <br>
 
 `git clone https://github.com/dpmqueiroz/FE-Alticci.git`
 
-2º Passo -> Verificar se tem o Node e Angular-Cli instalado. ( Minhas configurações estão dessa maneira: `Angular Cli: 15.2.4`, `Node: 18.15.0`
-`NPM 9.5.0` ).
+2º Passo -> Verificar se tem o Node e Angular-Cli instalado. ( Minhas configurações estão dessa maneira: <br>`Angular Cli: 15.2.4`, <br>`Node: 18.15.0`
+<br>`NPM 9.5.0` ).
 
 3º Passo -> Abrir o Terminal entrar na pasta raiz do projeto e executar o seguinte comando:
 
